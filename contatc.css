@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+*{
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    list-style:none;
+
+  
+    
+
+
+
+
+
+}
+
+
+header{
+    height:60px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color:#2CB01A;
+    width:100vw;
+    
+    
+    
+    
+    
+    
+    }
+    
+    nav{
+    width:60%;
+    background-color:#2CB01A;
+    
+    
+    
+    
+    
+    }
+    
+    ul{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    background-color:#2CB01A;
+    
+    
+    
+    
+    
+    
+    }
+    
+    li{
+    list-style:none;
+    font-size:20px;
+    color:#fff;
+    cursor:pointer;
+    font-family: 'VT323', monospace;
+    transition:.5s;
+    background-color:#2CB01A;
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+    
+    li:hover{
+    color:#FFD700
+    
+    
+    
+    
+    
+    
+    }
+    
+    #logo{
+    width:100px;
+    height:auto;
+    background-color:#2CB01A;
+    
+    
+    
+    
+    }
+
+     /* NAV BAR */
+    input{
+    display:block;
+    margin-bottom:10px;
+    border:#fff 3px solid;
+    border-radius:10px;
+    width:300px;
+    height:auto;
+    outline:none;
+
+
+    }
+
+    textarea{
+
+    display:block;
+    margin-bottom:15px;
+    border:#fff 3px solid;
+    border-radius:10px;
+    width:300px;
+    height:auto;
+    outline:none;
+    
+    
+    
+    
+    
+    
+    
+        }
+
+    
+    button{
+     width:200px;
+     height:60px;
+     background-color:#d21617;
+     border:5px solid #fff;
+     outline:none;
+     padding:5px;
+     border-radius:20px;
+     color:#fff;
+     font-family: 'DotGothic16', sans-serif;
+     margin-left:50px;
+
+    }
+
+    button:hover{
+        background-color:#FFD700;
+        color:#000;
+        cursor:url('./redmushroom.cur'), default;
+
+
+
+
+
+    }
+
+
+    label{
+        color:#fff;
+        font-family: 'DotGothic16', sans-serif;
+
+
+
+
+    }
+    
+     .banner-pai{
+    background-image:url('https://wallpaperaccess.com/full/3739441.jpg');
+    background-size:cover;
+    background-position:75% 0%;
+    width:100vw;
+    height:150vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+
+
+
+
+
+     }
+
+    .contato-container{
+    width:450px;
+    height:470px;
+    background-color:#d21617;
+    border-radius:15px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+
+    }
+
+    .contato-container h1{
+    margin-top:10px;
+    color:#fff;
+    font-family: 'DotGothic16', sans-serif;
+    margin-bottom:15px;
+    border:5px solid #fff;
+    padding:5px;
+    border-radius:20px;
+
+    }
+
+    .formulario{
+    display:block;
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* FOOTER */
+     footer{
+        display:flex;
+        flex-direction:column;
+        height:300px;
+        justify-content:space-around;
+        align-items:center;
+        background-color:#2CB01A;
+        width:100vw;
+        
+        
+        
+        
+        }
+        
+        span{
+        color:#fff;
+        background-color:#2CB01A;
+        font-size:17px;
+        font-family: 'DotGothic16', sans-serif;
+        
+        }
+        
+        .footer-navigation{
+        display:none;
+        
+        
+        
+        
+        
+        }
+        
+        .footer-list{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        
+        
+        
+        
+        
+        }
+
+
+
+
+
+        @media(max-width:768px){
+            footer{
+                padding-top:15px;
+                width:100vw;
+            
+            
+            
+            
+            
+            
+                }
+        
+        
+            .footer-navigation{
+            display:block;
+          
+          
+          
+          
+          
+            }
+          
+            nav{
+            display:none;
+           
+          
+          
+          
+          
+            }
+
+
+            .banner-pai{
+            display:flex;
+             justify-content:center;
+             align-items:center;
+            flex-direction:column;
+                 
+            
+            
+                 }
+
+
+                 .contato-container{
+                    width:370px;
+                    height:470px;
+                    background-color:#d21617;
+                    border-radius:15px;
+                    display:flex;
+                    flex-direction:column;
+                    align-items:center;
+                
+                
+                    }
+
+
+        }
+
+
+
+
+        
